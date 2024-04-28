@@ -12,3 +12,5 @@ local data = {
 
 TriggerEvent('murphy_discordlogs:SendLog', data)
 ```
+# CREDITS
+Based on https://github.com/boostless/Boost-Logs
