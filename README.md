@@ -1,4 +1,7 @@
 # murphy_discordlogs
+Discord logs for REDM
+Work on RedemRP, VORP, QBCORE, RSG
+
 # How to use
 ```lua
 local data = {
