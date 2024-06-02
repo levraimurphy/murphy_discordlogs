@@ -1,7 +1,4 @@
 # murphy_discordlogs
-Discord logs for REDM
-Work on RedemRP, VORP, QBCORE, RSG
-
 # How to use
 ```lua
 local data = {
@@ -15,5 +12,3 @@ local data = {
 
 TriggerEvent('murphy_discordlogs:SendLog', data)
 ```
-# CREDITS
-Based on https://github.com/boostless/Boost-Logs

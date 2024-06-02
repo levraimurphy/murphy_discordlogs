@@ -1,4 +1,4 @@
-if Config.framework == 'qbr-core' then
+if Config.Framework == 'qbr-core' then
 
     function ExtractIdentifiers(src)
         local identifiers = {

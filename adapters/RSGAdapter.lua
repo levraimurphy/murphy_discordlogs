@@ -1,4 +1,4 @@
-if Config.framework == 'rsg-core' then
+if Config.Framework == 'rsg-core' then
     local CORE = exports['rsg-core']:GetCoreObject()
 
 

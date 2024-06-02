@@ -1,4 +1,4 @@
-if Config.framework == "REDEMRP2k23" then
+if Config.Framework == "REDEMRP2k23" then
     RedEM = exports["redem_roleplay"]:RedEM()
     function ExtractIdentifiers(src)
         local identifiers = {

@@ -1,4 +1,4 @@
-if Config.framework == 'redemrp2022' then
+if Config.Framework == 'redemrp2022' then
 
     function ExtractIdentifiers(src)
         local identifiers = {
