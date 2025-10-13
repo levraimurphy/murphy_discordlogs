@@ -6,12 +6,14 @@ if Config.Framework == 'vorp' then
     end)
 
     
-    function ExtractIdentifiers(src)
+    function ExtractIdentifiers(targetID)
         local identifiers = {
         }
-        identifiers.steam = VorpCore.getUser(targetID).getUsedCharacter.identifier
-        identifiers.charid = VorpCore.getUser(targetID).getUsedCharacter.charIdentifier
-        identifiers.citizenid = VorpCore.getUser(targetID).getUsedCharacter.citizenid
+        local player = VorpCore.getUser(targetID)
+        if player == nil then return identifiers end
+        identifiers.steam = player.getUsedCharacter.identifier
+        identifiers.charid = player.getUsedCharacter.charIdentifier
+        identifiers.citizenid = player.getUsedCharacter.charIdentifier
         return identifiers
     end
 end

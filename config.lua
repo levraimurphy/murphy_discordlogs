@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Framework = "REDEMRP2k23"
+Config.Framework = "vorp"
 
 Config.Colors = {
     ["default"] = 16711680,
